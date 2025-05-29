@@ -1,0 +1,15 @@
+name: ovipets
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - opencv
+  - scikit-learn
+  - matplotlib
+  - pillow
+  - pip:
+    - tensorflow        # or torch torchvision
+    - tensorflow-addons # if you need extras
